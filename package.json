@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  },
+  "dependencies": {
+    "swiper": "^10.0.4"
+  }
+}
