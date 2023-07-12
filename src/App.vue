@@ -1,32 +1,43 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
-  </div>
+<div id="App">
+    <MusicHeader></MusicHeader>
+    <MusicContents></MusicContents>
+    <MusicFooter></MusicFooter>
+</div>
 </template>
 
+<script>
+import MusicHeader from './components/MusicHeader.vue';
+import MusicContents from './components/MusicContents.vue';
+import MusicFooter from './components/MusicFooter.vue';
+export default {
+    components: { MusicHeader, MusicContents, MusicFooter}
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+* {
+    margin:0;
+    padding: 0;
 }
-
-nav {
-  padding: 30px;
+body {
+    background: #000000;
 }
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+div#App {
+    width: 1800px;
+    height: 100%;
+    border: 2px solid rgba(255, 252, 252, 0.685);
+    margin: 0 auto;
+    position: relative;
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+.blind{
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+v-ul li {
+    list-style: none;
 }
 </style>
