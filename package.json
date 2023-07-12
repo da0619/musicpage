@@ -21,7 +21,7 @@
     "vuetify": "^2.6.0",
     "vuex": "^3.6.2"
   },
-  "homepage": "https://github.com/da0619/musics.git",
+  "homepage": "https://da0619.github.io/musics",
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
