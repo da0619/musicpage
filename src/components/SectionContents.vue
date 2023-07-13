@@ -50,7 +50,9 @@ import Modal from './modal/Modal.vue'
 import MusicContetnsVue from './MusicContents.vue'
 import SectionContents from './SectionContents.vue'
 import Section2Contents from './Section2Contents.vue'
+
 export default {
+    $desktop: "screen and (min-width : 769px and max-width:1023px)",
     components: {
         Modal
     },
@@ -64,72 +66,72 @@ export default {
                 {
                     url: require("../assets/image/mood_1_NowHot.png"),
                     alt: "요즘k-pop",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_2_Hip.png"),
                     alt: "힙터질때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_3_Happy.png"),
                     alt: "신났을때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_4_Sad.png"),
                     alt: "우울할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_5_Love.png"),
                     alt: "사랑할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_6_Broken.png"),
                     alt: "사랑했을때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_7_Focus.png"),
                     alt: "집중할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_8_Blankly.png"),
                     alt: "멍때릴때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_9_Workout.png"),
                     alt: "운동할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_10_Relax.png"),
                     alt: "휴식할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_11_Party.png"),
                     alt: "파티할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_12_Lonely.png"),
                     alt: "외로울때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_13_Morning.png"),
                     alt: "덜깼을때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: require("../assets/image/mood_14_Night.png"),
                     alt: "잠안올때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
             ],
         }
@@ -240,15 +242,14 @@ h2.genre_title {
     color: #ffffff;
     font-size: 2em;
     line-height: 39px;
-    border: 1px solid rgb(240, 230, 229);
+    border: 0px solid rgb(240, 230, 229);
 }
 
 #Section_1 {
     width: 1550px;
     height: 600px;
-    border: 2px solid gold;
+    border: 0px solid gold;
 }
-
 a#thema {
     position: absolute;
     top: 0px;
@@ -281,7 +282,7 @@ a#thema i {
 .mood_wrap {
     position: relative;
     width: 100%;
-    border: 2px solid rgb(48, 235, 235);
+    border: 0px solid rgb(48, 235, 235);
     height: 700px;
     float: left;
 }
@@ -290,7 +291,7 @@ a#thema i {
     position: absolute;
     top: 0;
     left: 0;
-    border: 5px solid brown;
+    border: 0px solid brown;
 }
 
 .list_item {
@@ -299,7 +300,7 @@ a#thema i {
     padding: 0 20px 20px 0;
     vertical-align: top;
     box-sizing: border-box;
-    border: 1px solid pink;
+    border: 0px solid pink;
 }
 
 .mood_area {
@@ -313,7 +314,7 @@ a#thema i {
 }
 
 .genre_station {
-    border: 2px solid green;
+    border: 0px solid green;
     padding-top: 50px;
     position: relative;
     float: left;

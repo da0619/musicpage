@@ -20,6 +20,8 @@ import SectionSubPage4 from './SectionSubPage4.vue'
 import SectionSubPage5 from './SectionSubPage5.vue'
 import SectionSubPage6 from './SectionSubPage6.vue'
 import SectionSubPage7 from './SectionSubPage7.vue'
+import SectionSubPage8 from './SectionSubPage8.vue'
+import SectionSubPage9 from './SectionSubPage9.vue'
 import Modal from './modal/Modal.vue'
 export default {
     components: {
@@ -32,6 +34,8 @@ export default {
         SectionSubPage5,
         SectionSubPage6,
         SectionSubPage7,
+        SectionSubPage8,
+        SectionSubPage9,
         Modal,
     },
     data() {
@@ -61,6 +65,10 @@ export default {
             }else if (componentName === 'subPage6') {
                 this.currentComponent = SectionSubPage6;
             }else if (componentName === 'subPage7') {
+                this.currentComponent = SectionSubPage7;
+            }else if (componentName === 'subPage8') {
+                this.currentComponent = SectionSubPage7;
+            }else if (componentName === 'subPage9') {
                 this.currentComponent = SectionSubPage7;
             }else {
                 // 기본 컴포넌트(SectionContents)로 변경
@@ -108,8 +116,8 @@ div#container {
     width: 1555px;
     height: auto;
     float: right;
-    border: 3px solid blue;
-    border-left: 1px solid rgba(128, 128, 128, 0.781);
+    border: 0px solid blue;
+    border-left: 0px solid rgba(128, 128, 128, 0.781);
     padding: 70px 0 55px;
     margin: 0 auto;
     position: relative;
@@ -141,7 +149,7 @@ h2.genre_title {
     color: #ffffff;
     font-size: 2em;
     line-height: 39px;
-    border: 1px solid rgb(240, 230, 229);
+    border: 0px solid rgb(240, 230, 229);
 }
 
 .mood_station span.mood_title {
@@ -155,7 +163,7 @@ h2.genre_title {
 .mood_wrap {
     position: relative;
     width: 100%;
-    border: 2px solid rgb(48, 235, 235);
+    border: 0px solid rgb(48, 235, 235);
     height: auto;
     float: left;
 }
@@ -164,7 +172,7 @@ h2.genre_title {
     position: absolute;
     top: 0;
     left: 0;
-    border: 5px solid brown;
+    border: 0px solid brown;
 }
 
 .list_item {
@@ -173,7 +181,7 @@ h2.genre_title {
     padding: 0 15px 15px 0;
     vertical-align: top;
     box-sizing: border-box;
-    border: 1px solid pink;
+    border: 0px solid pink;
 }
 
 .mood_area {
@@ -187,7 +195,7 @@ h2.genre_title {
 }
 
 .genre_station {
-    border: 2px solid green;
+    border: 0px solid green;
     padding-top: 50px;
     position: relative;
     float: left;

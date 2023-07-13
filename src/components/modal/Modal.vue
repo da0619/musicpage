@@ -46,7 +46,7 @@
                     <slot name="footer">
                         <button class="modal-default-button" @click="closeThemaModal" type="button">
                             <sapn class="blind" >OK</sapn>
-                            <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+                            <!-- <i class="fa-solid fa-xmark" style="color: #ffffff;"></i> -->
                         </button>
                     </slot>
                 </div>
@@ -86,7 +86,6 @@ export default {
                     enter: 'KQ Entertainment',
                     component:'subPage3'
                 },
-
                 {
                     url: 'https://music-phinf.pstatic.net/20190826_70/1566794131127nR67y_PNG/theme_main_cover.png?type=f360',
                     name: "선미'S",
@@ -101,23 +100,22 @@ export default {
                     enter: 'CUBE Entertainment',
                     component:'subPage5'
                 },
-
                 {
                     url: 'https://music-phinf.pstatic.net/20190619_12/1560936868356ERlYS_PNG/dj_1_SOMI_Theme.png?type=f360',
                     name: "전소미'S",
                     alt: '전소미',
                     enter: '더블랙레이블',
-                    component:'subPage6'
+                    component:'subPage6',
                 },
                 {
-                    url: 'https://music-phinf.pstatic.net/20181204_198/15439174677851ADA0_PNG/mood_0_cover.png?type=f360',
+                    url: 'https://music-phinf.pstatic.net/20181221_239/1545377669832rlmQ4_PNG/mood_0_cover.png?type=f360',
                     name: "MUSIC기본'S",
                     alt: '기본테마',
                     enter: 'MUSICstreaimg',
                     component:'subPage7'
                 },
                 {
-                    url: 'https://music-phinf.pstatic.net/20181221_239/1545377669832rlmQ4_PNG/mood_0_cover.png?type=f360',
+                    url: 'https://music-phinf.pstatic.net/20181204_198/15439174677851ADA0_PNG/mood_0_cover.png?type=f360',
                     name: "레트로테마",
                     alt: '레트로',
                     enter: 'jychoioioi',
@@ -178,7 +176,7 @@ ul li {
 
 .modal-container {
     width: 510px;
-    height: 680px !important;
+    height: 720px !important;
     margin: 0 auto;
     padding: 20px 30px;
     background-color: #222;
@@ -228,7 +226,7 @@ ul li {
 }
 
 .img_list {
-    border: 2px solid yellow;
+    border: 1px solid rgba(227, 227, 75, 0.903);
 }
 
 figcaption {

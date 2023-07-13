@@ -109,8 +109,8 @@ export default {
 header {
     background: #000000;
     width: 245px;
-    height: 1500px;
-    border: 3px solid red;
+    height: 100%;
+    border: 0px solid red;
     display: block;
     position: fixed;
     float: left;
@@ -212,11 +212,12 @@ div.menu v-ul {
     position: absolute;
     top: 0;
     left: 0;
+
 }
 div.menu v-ul li.menu_item {
 width: 220px;
 height: 45px;
-border: 1px solid gold;
+border: 0px solid gold;
 vertical-align: middle;
 padding-top: 10px;
 }
@@ -341,7 +342,7 @@ margin-top: 30px;
 
 div.installation{
     position: absolute;
-    bottom: 35%;
+    bottom: 50px;
     left: 0;
     border:1px solid rgba(85, 85, 85, 0.39);
     padding: 10px 25px 10px 25px;

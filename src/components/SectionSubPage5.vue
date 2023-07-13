@@ -2,7 +2,7 @@
     <div>
         <div id="Section_6">
             <h2 class="genre_title">장르별 스테이션</h2>
-            <a href="#" role="button" id="thema6" @click="openThemaModal">테마</a>
+            <a href="#" role="button" id="thema6" @click="openThemaModal"><i class="fa-solid fa-wand-magic-sparkles fa-rotate-270" style="color: #ffffff;"></i>테마</a>
             <modal v-if="showThemaModal === true" @close="closeThemaModal">
                 <template #header>
                     <h3>Station Thema</h3>
@@ -18,7 +18,10 @@
                             <div>
                                 <div class="mood_area">
                                     <a href="#" class="link">
+                                        <div class="image-container">
                                         <v-img :src="boxList.url" :alt="boxList.alt" class="mood_image"></v-img>
+                                        <div class="image-shadow"></div>
+                                        </div>
                                     </a>
                                     <a href="#" class="player" @click="toggleAudio(boxList.audioUrl)">
                                         <span class="playImg blind">스태이션재생하기</span>
@@ -59,72 +62,72 @@ export default {
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_226/1561535290750jsKN9_PNG/dj_1_mood_idle_1.png?type=f360',
                     alt: "요즘k-pop",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_208/1561535327827dWc9v_PNG/dj_1_mood_idle_2.png?type=f360',
                     alt: "힙터질때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_229/1561535338109ahcgl_PNG/dj_1_mood_idle_3.png?type=f360',
                     alt: "신났을때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_76/15615357020967G0Wr_PNG/dj_1_mood_idle_4.png?type=f360',
                     alt: "우울할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_192/1561535707564NO6Yg_PNG/dj_1_mood_idle_5.png?type=f360',
                     alt: "사랑할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_289/1561535713018XheE9_PNG/dj_1_mood_idle_6.png?type=f360',
                     alt: "사랑했을때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_104/1561535736451HUnWP_PNG/dj_1_mood_idle_7.png?type=f360',
                     alt: "집중할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_7/1561535742362Tb7q2_PNG/dj_1_mood_idle_8.png?type=f360',
                     alt: "멍때릴때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_276/1561535747982re2Bl_PNG/dj_1_mood_idle_9.png?type=f360',
                     alt: "운동할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_266/1561535775919mGHiH_PNG/dj_1_mood_idle_10.png?type=f360',
                     alt: "휴식할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_147/1561535782250OvTof_PNG/dj_1_mood_idle_11.png?type=f360',
                     alt: "파티할때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_232/1561535788003yJ8Ox_PNG/dj_1_mood_idle_12.png?type=f360',
                     alt: "외로울때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_132/1561535806787hMNFD_PNG/dj_1_mood_idle_13.png?type=f360',
                     alt: "덜깼을때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190626_218/1561535812545oFHSf_PNG/dj_1_mood_idle_14.png?type=f360',
                     alt: "잠안올때",
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
             ],
         }
@@ -227,18 +230,27 @@ h2.genre_title {
 #Section_6 {
     width: 1550px;
     height: 600px;
-    border: 2px solid gold;
+    border: 0px solid gold;
 }
-
 a#thema6 {
     position: absolute;
     top: 0px;
     right: 0;
-    padding: 13px 15px 10px 13px;
+    padding: 12px 15px 0px 40px;
     border: 1px solid #787c8570;
     color: #ffffff;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 14px;
+    width: 90px;
+    height: 45px;
+    /* text-align:center; */
+    border-radius: 7px;
+}
+
+a#thema6 i {
+    position:absolute;
+    top: 16px;
+    left: 20px;
 }
 
 .mood_station span.mood_title {
@@ -252,7 +264,7 @@ a#thema6 {
 .mood_wrap {
     position: relative;
     width: 100%;
-    border: 2px solid rgb(48, 235, 235);
+    border: 0px solid rgb(48, 235, 235);
     height: 700px;
     float: left;
 }
@@ -261,7 +273,7 @@ a#thema6 {
     position: absolute;
     top: 0;
     left: 0;
-    border: 5px solid brown;
+    border: 0px solid brown;
 }
 
 .list_item {
@@ -270,7 +282,7 @@ a#thema6 {
     padding: 0 20px 20px 0;
     vertical-align: top;
     box-sizing: border-box;
-    border: 1px solid pink;
+    border: 0px solid pink;
 }
 
 .mood_area {
@@ -284,7 +296,7 @@ a#thema6 {
 }
 
 .genre_station {
-    border: 2px solid green;
+    border: 0px solid green;
     padding-top: 50px;
     position: relative;
     float: left;

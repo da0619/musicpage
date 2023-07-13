@@ -9,6 +9,11 @@ import SectionSubPage from './component/SectionSubPage'
 import SectionSubPage2 from './component/SectionSubPage2'
 import SectionSubPage3 from './component/SectionSubPage3'
 import SectionSubPage4 from './component/SectionSubPage4'
+import SectionSubPage5 from './component/SectionSubPage5'
+import SectionSubPage6 from './component/SectionSubPage6'
+import SectionSubPage7 from './component/SectionSubPage7'
+import SectionSubPage8 from './component/SectionSubPage8'
+import SectionSubPage9 from './component/SectionSubPage9'
 const routes = [
     // 나머지 라우트 설정
     {
@@ -57,6 +62,19 @@ const routes = [
       path: 'SectionSubPage7/:box',
       name: 'SectionSubPage7',
       component:SectionSubPage7,
+      props: true
+    },
+    {
+      path: 'SectionSubPage8/:box',
+      name: 'SectionSubPage8',
+      component:SectionSubPage8,
+      props: true
+    }
+    ,
+    {
+      path: 'SectionSubPage9/:box',
+      name: 'SectionSubPage9',
+      component:SectionSubPage9,
       props: true
     }
   ]

@@ -45,123 +45,123 @@ export default {
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_280/1563371916540i7TdP_PNG/dj_3_genre_1.png?type=f360',
                     alt: '요즘k-pop',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_294/1563371930617qgT9H_PNG/dj_3_genre_2.png?type=f360',
                     alt: '요즘pop',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_279/1563371941301koKcB_PNG/dj_3_genre_3.png?type=f360',
                     alt: '여자아이돌',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_99/1563371956581gtQrS_PNG/dj_3_genre_4.png?type=f360',
                     alt: '남자아이돌',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                     
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_231/1563371969001XG9e6_PNG/dj_3_genre_5.png?type=f360',
                     alt: '슬픈발라드',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_232/1563371979830g7WlP_PNG/dj_3_genre_6.png?type=f360',
                     alt: '편안한앤비',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_19/1563371989398zXTlJ_PNG/dj_3_genre_7.png?type=f360',
                     alt: '요즘국힙',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_156/1563372004386TBVUz_PNG/dj_3_genre_8.png?type=f360',
                     alt: '요즘외힙',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_4/15633720146099qp8G_PNG/dj_3_genre_9.png?type=f360',
                     alt: '요즘락',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_174/1563372025425QcCYF_PNG/dj_3_genre_10.png?type=f360',
                     alt: '락레전드',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20200408_95/1586329462461vEXWy_PNG/dj_3_genre_27_EDM.png?type=f360',
                     alt: 'EDM',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20200408_23/15863294839281Xdrt_PNG/dj_3_genre_28_TECHNO.png?type=f360',
                     alt: 'TECHNO',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_96/1563372036114l44fO_PNG/dj_3_genre_11.png?type=f360',
                     alt: '재즈보컬',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_200/1563372046523807as_PNG/dj_3_genre_12.png?type=f360',
                     alt: '재즈피아노',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_144/1563372056614GXUwM_PNG/dj_3_genre_13.png?type=f360',
                     alt: '국내인디',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_194/1563372066530GVknv_PNG/dj_3_genre_14.png?type=f360',
                     alt: '해외인디',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_71/1563372076149daOFL_PNG/dj_3_genre_15.png?type=f360',
                     alt: '90년대가요',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_25/1563372086749r0Jfe_PNG/dj_3_genre_16.png?type=f360',
                     alt: '90년대pop',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_12/1563372097890NSssB_PNG/dj_3_genre_17.png?type=f360',
                     alt: '80년대가요',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_109/15633721096810fFma_PNG/dj_3_genre_18.png?type=f360',
                     alt: '80년대pop',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_294/15633721206892HiBL_PNG/dj_3_genre_19.png?type=f360',
                     alt: '60,70년대가요',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_261/1563372129689dcr5i_PNG/dj_3_genre_20.png?type=f360',
                     alt: '60,70년대pop',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_160/1563372138920EHpAE_PNG/dj_3_genre_21.png?type=f360',
                     alt: '드라마OST',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
                 {
                     url: 'https://music-phinf.pstatic.net/20190717_113/1563372147355UlM0D_PNG/dj_3_genre_22.png?type=f360',
                     alt: '영화OST',
-                    audioUrl: require("../assets/mp3/박재정-01-헤어지자 말해요.mp3"),
+                    audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
                 },
             ],
 
@@ -253,7 +253,7 @@ h2.genre_title {
     color: #ffffff;
     font-size: 2em;
     line-height: 39px;
-    border: 1px solid rgb(240, 230, 229);
+    border: 0px solid rgb(240, 230, 229);
 }
 
 .list_item {
@@ -262,7 +262,7 @@ h2.genre_title {
     padding: 0 20px 20px 0;
     vertical-align: top;
     box-sizing: border-box;
-    border: 1px solid pink;
+    border: 0px solid pink;
 }
 
 .player {
@@ -272,7 +272,7 @@ h2.genre_title {
 }
 
 .genre_station {
-    border: 2px solid green;
+    border: 0px solid green;
     padding-top: 50px;
     position: relative;
     float: left;
