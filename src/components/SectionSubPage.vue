@@ -58,7 +58,7 @@ export default {
             audio: null,
             isPlaying: false,
             showThemaModal: false,
-            progressWidth: "0%",
+            progressWidth: "0%", 
             boxArea: [
                 {
                     url: require("../assets/image/크러쉬_1_mood_1.png"),
@@ -135,9 +135,9 @@ export default {
     },
     mounted() {
         this.$root.$emit('modal-image-click');
-        this.audio = new Audio("your-audio-url");
+        this.audio = new Audio();
         this.audio.addEventListener("ended", () => {
-            this.isPlaying = false;
+        this.isPlaying = false;
         });
     },
     methods: {
@@ -164,7 +164,7 @@ export default {
                 if (this.audio) {
                     this.audio.pause();
                 }
-                this.audio = new Audio(audioUrl);
+                this.audio.src = audioUrl;
                 this.audio.play();
                 this.isPlaying = true;
             }

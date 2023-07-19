@@ -32,9 +32,19 @@
                                     </a>
                                     <div class="audio-bar" v-show="isPlaying">
                                         <div class="track">
-                                        <div class="progress" :style="{width:progressWidth}"></div>
+                                            <div class="progress" :style="{ width: progressWidth }"></div>
                                         </div>
                                     </div>
+                                    <!-- <a href="#" class="player">
+                                        <span class="playImg blind">스태이션재생하기</span>
+                                    </a>
+                                        <img v-bind:src="boxList.url1" @click="musicPlay()" class="playing" type="button">
+                                        <img v-bind:src="boxList.url2" @click="musicStop()" class="playing">
+                                    <div class="audio-bar" v-show="isPlaying">
+                                        <div class="track">
+                                        <div class="progress" :style="{width:progressWidth}"></div>
+                                        </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </li>
@@ -50,9 +60,8 @@ import Modal from './modal/Modal.vue'
 import MusicContetnsVue from './MusicContents.vue'
 import SectionContents from './SectionContents.vue'
 import Section2Contents from './Section2Contents.vue'
-
+// var music = new Audio("../assets/mp3/aespa-02-Spicy.mp3");
 export default {
-    $desktop: "screen and (min-width : 769px and max-width:1023px)",
     components: {
         Modal
     },
@@ -67,6 +76,8 @@ export default {
                     url: require("../assets/image/mood_1_NowHot.png"),
                     alt: "요즘k-pop",
                     audioUrl: require("../assets/mp3/aespa-02-Spicy.mp3"),
+                    url1: require("../assets/image/player.png"),
+                    url2:require("../assets/image/stop.png")
                 },
                 {
                     url: require("../assets/image/mood_2_Hip.png"),
@@ -135,12 +146,14 @@ export default {
                 },
             ],
         }
-    }, mounted() {
+    }, 
+    mounted() {
+        var music = new Audio("../assets/mp3/aespa-02-Spicy.mp3");
         this.$root.$emit('modal-image-click');
-        this.audio = new Audio("your-audio-url");
-        this.audio.addEventListener("ended", () => {
-        this.isPlaying = false;
-        });
+        // this.audio = new Audio();
+        // this.audio.addEventListener("ended", () => {
+        // this.isPlaying = false;
+        // });
     },
 
     methods: {
@@ -155,30 +168,37 @@ export default {
             this.showThemaModal = false;
         },
 
-        toggleAudio(audioUrl) {
-            if (this.audio && this.audio.src === audioUrl) {
-                if (this.isPlaying) {
-                    this.audio.pause();
-                    this.isPlaying = false;
-                } else {
-                    this.audio.play();
-                    this.isPlaying = true;
-                }
-            } else {
-                if (this.audio) {
-                    this.audio.pause();
-                }
-                this.audio = new Audio(audioUrl);
-                this.audio.play();
-                this.isPlaying = true;
-            }
-        },
+        // toggleAudio(audioUrl) {
+        //     if (this.audio && this.audio.src === audioUrl) {
+        //         if (this.isPlaying) {
+        //             this.audio.pause();
+        //             this.isPlaying = false;
+        //         } else {
+        //             this.audio.play();
+        //             this.isPlaying = true;
+        //         }
+        //     } else {
+        //         if (this.audio) {
+        //             this.audio.pause();
+        //         }
+        //         this.audio.src = audioUrl;
+        //         this.audio.play();
+        //         this.isPlaying = true;
+        //     }
+        // },
 
-        updateProgress() {
-            const currentTime = this.audio.currentTime;
-            const duration = this.audio.duration;
-            this.progressWidth = `${(currentTime / duration) * 100}%`;
+        // updateProgress() {
+        //     const currentTime = this.audio.currentTime;
+        //     const duration = this.audio.duration;
+        //     this.progressWidth = `${(currentTime / duration) * 100}%`;
+        // },
+        musicPlay(){
+            music.play();
+            alert("ok");
         },
+        musicStop(){
+            music.pause();
+        }
     }
 }
 </script>
